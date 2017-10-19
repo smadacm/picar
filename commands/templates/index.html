@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<h2>Test Pin</h2>
+<table>
+    {% for pin_id, status in pins_status %}
+        <tr>
+            <td><a href="">{{ pin_id }}</a></td>
+            <td>{{ status }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
